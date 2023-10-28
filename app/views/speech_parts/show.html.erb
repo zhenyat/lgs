@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @speech_part %>
+
+<div>
+  <%= link_to "Edit this speech part", edit_speech_part_path(@speech_part) %> |
+  <%= link_to "Back to speech parts", speech_parts_path %>
+
+  <%= button_to "Destroy this speech part", @speech_part, method: :delete, form: { data: { turbo_confirm: 'Are you sure?' } } %>
+</div>

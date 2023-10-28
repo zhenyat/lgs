@@ -1,0 +1,37 @@
+<%= form_with(model: speech_part) do |form| %>
+  <% if speech_part.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(speech_part.errors.count, "error") %> prohibited this speech_part from being saved:</h2>
+
+      <ul>
+        <% speech_part.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :de, style: "display: block" %>
+    <%= form.text_field :de %>
+  </div>
+
+  <div>
+    <%= form.label :en, style: "display: block" %>
+    <%= form.text_field :en %>
+  </div>
+
+  <div>
+    <%= form.label :es, style: "display: block" %>
+    <%= form.text_field :es %>
+  </div>
+
+  <div>
+    <%= form.label :ru, style: "display: block" %>
+    <%= form.text_field :ru %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Speech parts</h1>
+
+<div id="speech_parts">
+  <% @speech_parts.each do |speech_part| %>
+    <%= render speech_part %>
+    <p>
+      <%= link_to "Show this speech part", speech_part %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New speech part", new_speech_part_path %>
