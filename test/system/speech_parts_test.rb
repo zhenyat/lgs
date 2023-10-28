@@ -16,34 +16,35 @@ class SpeechPartsTest < ApplicationSystemTestCase
     visit speech_parts_url
     click_on 'New speech part'
 
-    fill_in 'De', with: @speech_part.de
-    fill_in 'En', with: @speech_part.en
-    fill_in 'Es', with: @speech_part.es
-    fill_in 'Ru', with: @speech_part.ru
+    fill_in 'De', with: "#{@speech_part.de}ZT"
+    fill_in 'En', with: "#{@speech_part.en}ZT"
+    fill_in 'Es', with: "#{@speech_part.es}ZT"
+    fill_in 'Ru', with: "#{@speech_part.ru}ZT"
     click_on 'Create Speech part'
 
     assert_text 'Speech part was successfully created'
     click_on 'Back'
   end
 
-  # test 'should update Speech part' do
-  #   visit speech_part_url(@speech_part)
-  #   click_on 'Edit this speech part', match: :first
+  test 'should update Speech part' do
+    visit speech_part_url(@speech_part)
+    click_on 'Edit this speech part', match: :first
 
-  #   fill_in 'De', with: @speech_part.de
-  #   fill_in "En", with: @speech_part.en
-  #   fill_in "Es", with: @speech_part.es
-  #   fill_in "Ru", with: @speech_part.ru
-  #   click_on "Update Speech part"
+    fill_in 'De', with: @speech_part.de
+    fill_in 'En', with: @speech_part.en
+    fill_in 'Es', with: @speech_part.es
+    fill_in 'Ru', with: @speech_part.ru
+    click_on 'Update Speech part'
 
-  #   assert_text 'Speech part was successfully updated'
-  #   click_on "Back"
-  # end
+    assert_text 'Speech part was successfully updated'
+    click_on 'Back'
+  end
 
-  # test "should destroy Speech part" do
-  #   visit speech_part_url(@speech_part)
-  #   click_on "Destroy this speech part", match: :first
+  test 'should destroy Speech part' do
+    visit speech_part_url(@speech_part)
+    click_on 'Destroy this speech part', match: :first
+    accept_confirm { 'Execute the block, accepting a confirm' }
 
-  #   assert_text "Speech part was successfully destroyed"
-  # end
+    assert_text 'Speech part was successfully destroyed'
+  end
 end
