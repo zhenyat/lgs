@@ -22,58 +22,42 @@ begin
           es: 'número',
           ru: 'числительное'
         },
-        {
-          de: 'Pronomen',
+        { de: 'Pronomen',
           en: 'pronoun',
           es: 'pronombre',
-          ru: 'местоимение'
-        },
-        {
-          de: 'Personalpronoun',
+          ru: 'местоимение' },
+        { de: 'Personalpronomen',
           en: 'personal pronoun',
           es: 'pronombre personal',
-          ru: 'личное местоимение'
-        },
-        {
-          de: 'verb',
-          en: 'Verb',
-          es: 'verbo',
-          ru: 'глагол'
-        },
-        {
-          de: 'Adverb',
-          en: 'adverb',
-          es: 'adverbio',
-          ru: 'наречие'
-        },
-        {
-          de: 'Präposition',
-          en: 'pretext',
-          es: 'pretexto / preposición',
-          ru: 'предлог'
-        },
-        {
-          de: 'Konjuktion',
-          en: 'conjunction',
-          es: 'conjunción',
-          ru: 'союз'
-        },
-        {
-          de: 'Partikel',
-          en: 'particle',
-          es: 'partícula',
-          ru: 'частица'
-        },
-        {
-          de: 'Interjektion',
-          en: 'interjection',
-          es: 'interjección',
-          ru: 'междометие'
-        },
-        { de: 'Artikel',
-          en: 'article',
-          es: 'artículo',
-          ru: 'артикль' }
+          ru: 'личное местоимение' },
+        { de: 'Reflexivpronom',
+          en: 'reflexive pronoun',
+          es: 'pronombre reflexivo',
+          ru: 'возвратное местоимение' },
+        { de: 'Possessivpronom',
+          en: 'possessiv pronoun',
+          es: 'pronombre posesivo',
+          ru: 'притяжательное местоимение' },
+        { de: 'Demonstrativpronom',
+          en: 'demonstrative pronoun',
+          es: 'pronombre demostrativo',
+          ru: 'указательное местоимение' },
+        { de: 'Indefinitpronomen',
+          en: 'indefinite pronoun',
+          es: 'pronombre indefinido',
+          ru: 'неопределённое местоимение' },
+        { de: 'Relativpronom, Interrogativpronom',
+          en: 'relative, interrogative pronoun',
+          es: 'pronombre interrogativo y relativo',
+          ru: 'вопросит. и относит. местоимение' },
+
+        { de: 'verb', en: 'Verb', es: 'verbo', ru: 'глагол' },
+        { de: 'Adverb', en: 'adverb', es: 'adverbio', ru: 'наречие' },
+        { de: 'Präposition', en: 'preposition', es: 'preposición', ru: 'предлог' },
+        { de: 'Konjuktion', en: 'conjunction', es: 'conjunción', ru: 'союз' },
+        { de: 'Partikel', en: 'particle', es: 'partícula', ru: 'частица' },
+        { de: 'Interjektion', en: 'interjection', es: 'interjección', ru: 'междометие' },
+        { de: 'Artikel', en: 'article', es: 'artículo', ru: 'артикль' }
       ]
     )
     puts "===== #{SpeechPart.count} 'Speech Part' record(s) created"
