@@ -27,5 +27,11 @@
 #       "yes": yup
 #       enabled: "ON"
 
+de:
+  hello: 'Hallo'
 en:
-  hello: "Hello world"
+  hello: 'Hello world'
+es: 
+  hello: 'Hola!'
+ru:
+  hello: 'Привет!'

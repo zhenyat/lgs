@@ -1,0 +1,40 @@
+de:
+  singular:
+    indefinite:
+      male:   ''  
+      female: '' 
+      neuter: ''
+    definite:
+      male:   der
+      female: die
+      neuter: das
+  plural:
+    indefinite:
+      male:    '' 
+      female:  '' 
+    definite:
+      Nominative: die
+      Akkusativ:  die
+      Dativ:      den
+      Gentiv:     der
+en:
+  singular:
+    indefinite:  a/an
+    definite:    the
+es:
+  singular:
+    indefinite:
+      male:     un
+      female:   una
+      neuter:   ''
+    definite:
+      male:     el
+      female:   la
+      neuter:   lo
+  plural:
+    indefinite:
+      male:     unos
+      female:   unas
+    definite:
+      male:     los
+      female:   las

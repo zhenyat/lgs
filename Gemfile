@@ -29,6 +29,7 @@ gem "jbuilder"
 # Seedbank allows you to structure your apps seed data instead of having it all dumped into one large file
 gem 'seedbank'          # http://github.com/james2m/seedbank
 gem 'solargraph'
+gem 'rails-i18n'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
