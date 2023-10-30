@@ -1,0 +1,18 @@
+de:
+  hello: 'Hallo'
+
+  # article:    Artikel
+  definite:    bestimmter
+  indefinite:  unbestimmter
+  
+  singular:   Singular
+  plural:     Plural
+  
+  male:       Maskulinum
+  female:     Femininum
+  neuter:     Neutrum
+
+  # Nominative: Nominative
+  # Genitiv:    Ggenitiv  
+  # Dativ:      Dativ
+  # Akkusativ:  Akkusativ

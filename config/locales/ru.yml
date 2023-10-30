@@ -1,0 +1,18 @@
+ru:
+  hello: 'Привет!'  # for test
+
+  # article:   артикль
+  definite:   определеный
+  indefinite: неопределенный
+  
+  singular:  'ед.ч.'
+  plural:    'мн.ч.'
+  
+  male:      'муж.р.'
+  female:    'жен.р.'
+  neuter:    'ср.р.'
+
+  Nominative: 'Именит.пад.'
+  Genitiv:    'Родит.пад.'
+  Dativ:      'Дат.пад.'
+  Akkusativ:  'Винит.пад.'

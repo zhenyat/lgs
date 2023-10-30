@@ -1,40 +1,107 @@
 de:
-  singular:
-    indefinite:
-      male:   ''  
-      female: '' 
-      neuter: ''
-    definite:
-      male:   der
-      female: die
-      neuter: das
-  plural:
-    indefinite:
-      male:    '' 
-      female:  '' 
-    definite:
-      Nominative: die
-      Akkusativ:  die
-      Dativ:      den
-      Gentiv:     der
+  article:
+    singular:
+      indefinite:
+        Nominativ:
+          male:   ein 
+          female: eine
+          neuter: ein
+        Gentiv:
+          male:   eines 
+          female: einer
+          neuter: eines
+        Dativ:
+          male:   einem 
+          female: einer 
+          neuter: einem
+        Akkusativ:
+          male:   einen 
+          female: eine
+          neuter: ein
+      definite:
+        Nominativ:
+          male:   der
+          female: die
+          neuter: das
+        Gentiv:
+          male:   des
+          female: der
+          neuter: des
+        Dativ:
+          male:   dem
+          female: der
+          neuter: dem
+        Akkusativ:
+          male:   den
+          female: die
+          neuter: das
+    plural:
+      indefinite:
+        male:    '' 
+        female:  ''
+        neuter:  ''
+      definite:
+        Nominative: die
+        Gentiv:     der
+        Dativ:      den
+        Akkusativ:  die
 en:
-  singular:
-    indefinite:  a/an
-    definite:    the
+  article:
+    singular:
+      indefinite:
+        male:   a  
+        female: a 
+        neuter: a
+      definite:
+        male:   the
+        female: the
+        neuter: the
+    plural:
+      indefinite:
+        male:    '' 
+        female:  ''
+        neuter:  '' 
+      definite:
+        male:    '' 
+        female:  ''
+        neuter:  ''
 es:
-  singular:
-    indefinite:
-      male:     un
-      female:   una
-      neuter:   ''
-    definite:
-      male:     el
-      female:   la
-      neuter:   lo
-  plural:
-    indefinite:
-      male:     unos
-      female:   unas
-    definite:
-      male:     los
-      female:   las
+  article:
+    singular:
+      indefinite:
+        male:     un
+        female:   una
+        neuter:   ''
+      definite:
+        male:     el
+        female:   la
+        neuter:   lo
+    plural:
+      indefinite:
+        male:     unos
+        female:   unas
+        neuter:   ''
+      definite:
+        male:     los
+        female:   las
+        neuter:   ''
+ru:
+  article:
+    singular:
+      indefinite:
+        male:     ''
+        female:   ''
+        neuter:   ''
+      definite:
+        male:     ''
+        female:   ''
+        neuter:   ''
+    plural:
+      indefinite:
+        male:     ''
+        female:   ''
+        neuter:   ''
+      definite:
+        male:     ''
+        female:   ''
+        neuter:   ''

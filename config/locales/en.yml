@@ -27,11 +27,10 @@
 #       "yes": yup
 #       enabled: "ON"
 
-de:
-  hello: 'Hallo'
 en:
-  hello: 'Hello world'
-es: 
-  hello: 'Hola!'
-ru:
-  hello: 'Привет!'
+  hello: 'Hello'
+
+  Nominative: nominative
+  Genitiv:    genitive  
+  Dativ:      dative
+  Akkusativ:  accusative

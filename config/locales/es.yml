@@ -1,0 +1,18 @@
+es:
+  hello: 'Halo!'
+
+  # article:   artículo
+  definite:   determinados
+  indefinite: indeterminados
+  
+  singular:   singular
+  plural:     plural
+  
+  male:       masculino
+  female:     femenino
+  neuter:     neutro
+
+  Nominative: 'сaso nominativo'
+  Genitiv:    пenitivo
+  Dativ:      dativo
+  Akkusativ:  acusativo
